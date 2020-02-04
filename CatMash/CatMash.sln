@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29418.71
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatMash", "CatMash\CatMash.csproj", "{059F1834-3067-4919-9558-C6FC2BA21E32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CatMash", "CatMash\CatMash.csproj", "{059F1834-3067-4919-9558-C6FC2BA21E32}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interface", "Interface", "{7FD3703F-2AA1-42CF-B2EC-51FADFDC55FF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{C63F2219-043B-4EE4-8EA9-2562AC5EA90E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatMashService", "CatMashService\CatMashService.csproj", "{BB6E37FF-257A-4DB0-9C01-6C17E9509683}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CatMashService", "CatMashService\CatMashService.csproj", "{BB6E37FF-257A-4DB0-9C01-6C17E9509683}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatMashServiceTests", "CatMashServiceTests\CatMashServiceTests.csproj", "{0762E133-BE31-436D-A90F-25A3FAED6F6B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +27,10 @@ Global
 		{BB6E37FF-257A-4DB0-9C01-6C17E9509683}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB6E37FF-257A-4DB0-9C01-6C17E9509683}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB6E37FF-257A-4DB0-9C01-6C17E9509683}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0762E133-BE31-436D-A90F-25A3FAED6F6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0762E133-BE31-436D-A90F-25A3FAED6F6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0762E133-BE31-436D-A90F-25A3FAED6F6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0762E133-BE31-436D-A90F-25A3FAED6F6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{059F1834-3067-4919-9558-C6FC2BA21E32} = {7FD3703F-2AA1-42CF-B2EC-51FADFDC55FF}
 		{BB6E37FF-257A-4DB0-9C01-6C17E9509683} = {C63F2219-043B-4EE4-8EA9-2562AC5EA90E}
+		{0762E133-BE31-436D-A90F-25A3FAED6F6B} = {C63F2219-043B-4EE4-8EA9-2562AC5EA90E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {497303FB-9AB6-49FD-93BF-CCC8EE41D345}

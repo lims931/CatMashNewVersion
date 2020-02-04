@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Slim\\Desktop\\Final Version\\CatMash\\CatMashService\\CatMashService.csproj": {}
+    "C:\\Users\\Slim\\Desktop\\Final Final Version\\CatMash\\CatMashService\\CatMashService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Slim\\Desktop\\Final Version\\CatMash\\CatMashService\\CatMashService.csproj": {
+    "C:\\Users\\Slim\\Desktop\\Final Final Version\\CatMash\\CatMashService\\CatMashService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Slim\\Desktop\\Final Version\\CatMash\\CatMashService\\CatMashService.csproj",
+        "projectUniqueName": "C:\\Users\\Slim\\Desktop\\Final Final Version\\CatMash\\CatMashService\\CatMashService.csproj",
         "projectName": "CatMashService",
-        "projectPath": "C:\\Users\\Slim\\Desktop\\Final Version\\CatMash\\CatMashService\\CatMashService.csproj",
+        "projectPath": "C:\\Users\\Slim\\Desktop\\Final Final Version\\CatMash\\CatMashService\\CatMashService.csproj",
         "packagesPath": "C:\\Users\\Slim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Slim\\Desktop\\Final Version\\CatMash\\CatMashService\\obj\\",
+        "outputPath": "C:\\Users\\Slim\\Desktop\\Final Final Version\\CatMash\\CatMashService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Slim\\AppData\\Roaming\\NuGet\\NuGet.Config",
