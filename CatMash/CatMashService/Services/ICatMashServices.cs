@@ -17,5 +17,7 @@ namespace CatMashService.Services
         List<Match> GetAwayMatchCat(int CatId);
 
         Cat GetCatWithsResults(int CatId);
+
+        Tuple<Cat, Cat> GetOpponents();
     }
 }

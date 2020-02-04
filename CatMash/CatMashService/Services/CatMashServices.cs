@@ -122,6 +122,19 @@ namespace CatMashService.Services
             return catList;
         }
 
+
+        public Tuple<Cat, Cat> GetOpponents()
+        {
+            var firstOpponentTCat = _catMashRepository.GetRandomCat();
+            var secondOpponentTCat = _catMashRepository.GetRandomCat();
+
+            var firstOpponentCat = new Cat() { CatId = firstOpponentTCat.CatId, CatUrl= firstOpponentTCat.CatUrl };
+            var secondOpponentCat = new Cat() { CatId = secondOpponentTCat.CatId, CatUrl = secondOpponentTCat.CatUrl };
+
+             return Tuple.Create(firstOpponentCat, secondOpponentCat);
+
+        }
+
         private TMatch MapMatchToTMach(Match match)
         {
             return new TMatch()
