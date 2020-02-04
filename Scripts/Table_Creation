@@ -1,0 +1,19 @@
+USE [CatMashDB]
+GO
+
+CREATE TABLE T_Cat (
+    CatId int IDENTITY(1,1) PRIMARY KEY,
+    CatUrl VARCHAR (max) NOT NULL
+);
+
+
+
+
+CREATE TABLE T_Match (
+    MatcheId int IDENTITY(1,1) PRIMARY KEY,
+	LeftCatId int NOT NULL,
+	RightCatId int NOT NULL,
+	MatchResult VARCHAR (10) NOT NULL,
+	CONSTRAINT [FK_Match_LeftCatId_CatId] FOREIGN KEY ([LeftCatId]) REFERENCES [T_Cat] ([CatId]),
+	CONSTRAINT [FK_Match_RightCatId_CatId] FOREIGN KEY ([RightCatId]) REFERENCES [T_Cat] ([CatId])
+);
